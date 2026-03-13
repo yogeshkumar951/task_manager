@@ -142,14 +142,14 @@ python cli.py delete 1
 
 ### Example Output
 
---------------------------------------------------
+```--------------------------------------------------
 ID    Title                          Status
 --------------------------------------------------
 1     test                           pending
 2     test1                          pending
 3     test2                          pending
 
---------------------------------------------------
+--------------------------------------------------```
 
 # Assumptions Made
 
@@ -158,3 +158,4 @@ ID    Title                          Status
 * Priority values allowed: low, medium, high.
 * Task status values allowed: pending, complete.
 * CLI interacts with the API using HTTP requests via the requests library.
+
